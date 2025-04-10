@@ -11,6 +11,7 @@ describe('Tapos: test', () => {
     it('Submit online form with name and email ', () => {
 
         //2
+        //3
         navigateTo.fromLayoutsPage()
         cy.fixture('userData.json').as('userData')
         // cy.get('@userData').then(data => {
